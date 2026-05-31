@@ -1,0 +1,56 @@
+;请注意本配置文件的文本编码需为 [Ansi] 编码
+[Download]
+PEX64=64位PE下载地址,请务必配置64位PE的下载地址,否则在常见的UEFI机型下无法引导；
+PEX64MD5=64位PE的文件MD5校验值,留空不校验
+PEX86=32位PE下载地址,请务必配置Win8及以上32位PE的下载地址,否则在常见的UEFI 32位机型下无法引导；
+PEX86MD5=32位PE的文件MD5校验值,留空不校验
+XPPE=XP下的PE下载地址；推荐32位启动快的PE
+XPPEMD5=32位PE的文件MD5校验值,留空不校验
+VirtualMachineDownload=0 ;定义是否允许用户在虚拟机环境下载系统,1为允许,其他为禁止
+
+
+;以下是部署多版本PE的示例
+;请同时定义上方的PE下载地址及下方的多版本PE,以保持旧版本的兼容性
+[PEX64] ;64位PE下载地址
+VirtualMachineDownload=0 ;定义是否允许用户在虚拟机环境下载系统,1为允许,其他为禁止
+PE1Url=PE1的下载地址
+PE1Url2=PE1的备用下载地址，PE1的下载地址下载失败时自动切换至备用下载地址
+PE1Name=PE1的名称
+PE1MD5=PE1的MD5
+PE1MS=PE1的描述
+
+PE2Url=PE2的下载地址
+PE2Url2=PE2的备用下载地址，PE2的下载地址下载失败时自动切换至备用下载地址
+PE2Name=PE2的名称
+PE2MD5=PE2的MD5
+PE2MS=PE2的描述
+
+;以此类推,最大支持定义10个版本的PE
+
+[PEX86] ;32位PE下载地址
+VirtualMachineDownload=0 ;定义是否允许用户在虚拟机环境下载系统,1为允许,其他为禁止
+PE1Url=PE1的下载地址
+PE1Name=PE1的名称
+PE1MD5=PE1的MD5
+PE1MS=PE1的描述
+
+PE2Url=PE2的下载地址
+PE2Name=PE2的名称
+PE2MD5=PE2的MD5
+PE2MS=PE2的描述
+
+;以此类推,最大支持定义10个版本的PE
+
+[XPPE] ;32位PE下载地址
+VirtualMachineDownload=0 ;定义是否允许用户在虚拟机环境下载系统,1为允许,其他为禁止
+PE1Url=PE1的下载地址
+PE1Name=PE1的名称
+PE1MD5=PE1的MD5
+PE1MS=PE1的描述
+
+PE2Url=PE2的下载地址
+PE2Name=PE2的名称
+PE2MD5=PE2的MD5
+PE2MS=PE2的描述
+
+;以此类推,最大支持定义10个版本的PE

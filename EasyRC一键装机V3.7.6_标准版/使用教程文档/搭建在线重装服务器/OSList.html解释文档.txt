@@ -1,0 +1,161 @@
+请注意本配置文件的文本编码需为 [Ansi] 编码
+[Config]
+state=1 服务器状态指示,1为正常,0为服务器关闭
+VirtualMachineDownload=0 定义是否允许用户在虚拟机环境下载系统,1为允许,其他为禁止.
+
+Newpass=在线重装功能的启动密码,需MD5加密。
+MD5加密工具：https://www.jyshare.com/crypto/md5/
+
+WanDrvstate=1
+WinXPX86Url=万能驱动下载地址【WinXP】
+WinXPX86File=保存文件名
+Win7X86Url=http://silver.yukaidi.com/f/PQW9UP/7X86.iso【Win7 32位】
+Win7X86File=WanDrv.iso
+Win7x64Url=http://silver.yukaidi.com/f/106zF4/7x64.iso【Win7 64位】
+Win7x64File=WanDrv.iso
+Win10x86Url=http://silver.yukaidi.com/f/NJWMce/10x86.iso【Win10 32位】
+Win10x86File=WanDrv.iso
+Win10x64Url=http://silver.yukaidi.com/f/xaLjf3/10x64.iso【Win10 64位】
+Win10x64File=WanDrv.iso
+
+[系统名称]
+describe=系统描述
+Time=更新时间
+Bit=系统大小
+OSUrl=系统下载地址,支持GHO/WIM/ESD/ISO格式；支持网盘转链、直链
+OSUrl2=多线路2系统下载地址,支持GHO/WIM/ESD/ISO格式；支持网盘转链、直链
+OSFile=下载后保存到本地的文件名,桌面客户端将以此文件名后缀来判断系统镜像文件格式
+OSNewFile=镜像为ISO格式时,需定义安装文件在ISO镜像里的所在路径,不可带盘符
+Index=WIM/ESD的安装索引[卷序号],如安装镜像是WIM/ESD，需务必填写,否则程序将默认以卷1安装
+exeSetup1Url=支持配置来自第三方软件安装包/万能驱动等任何文件下载地址；支持网盘转链、直链
+exeSetup1Url2=多线路2下载地址,支持配置来自第三方软件安装包/万能驱动等任何文件下载地址；支持网盘转链、直链
+ExeSetup1Path=第三方软件安装包复制到系统安装盘所在的文件夹,不可带盘符
+ExeSetup1File=第三方软件安装包保存文件名
+ExeSetup1MD5=第三方软件安装包的MD5校验值
+ExeSetup1Run=1 ;1为设置第三方软件安装包成开机启动,其他值为不设置，支持EXE/CMD/BAT
+ExeSetup1RunCS=第三方软件安装包的运行参数
+exeSetup2Url=同上,第二个捆绑包的下载地址,程序支持下载来自十个不同url的软件安装包
+exeSetup2Url2=多线路2下载地址,同上,第二个捆绑包的下载地址,程序支持下载来自十个不同url的软件安装包
+ExeSetup2Path=同上
+ExeSetup2File=同上
+ExeSetup2MD5=同上
+ExeSetup2Run=同上
+ExeSetup2RunCS=同上
+exeSetup3Url=同上
+ExeSetup3Path=同上
+ExeSetup3File=同上
+ExeSetup3MD5=同上
+ExeSetup3Run=同上
+ExeSetup3RunCS=同上
+exeSetup4Url=同上
+ExeSetup4Path=同上
+ExeSetup4File=同上
+ExeSetup4MD5=同上
+ExeSetup4Run=同上
+ExeSetup4RunCS=同上
+exeSetup5Url=同上
+ExeSetup5Path=同上
+ExeSetup5File=同上
+ExeSetup5MD5=同上
+ExeSetup5Run=同上
+ExeSetup5RunCS=同上
+exeSetup6Url=同上
+ExeSetup6Path=同上
+ExeSetup6File=同上
+ExeSetup6MD5=同上
+exeSetup7Url=同上
+ExeSetup7Path=同上
+ExeSetup7File=同上
+ExeSetup7MD5=同上
+ExeSetup7Run=同上
+ExeSetup7RunCS=同上
+exeSetup8Url=同上
+ExeSetup8Path=同上
+ExeSetup8File=同上
+ExeSetup8MD5=同上
+ExeSetup8Run=同上
+ExeSetup8RunCS=同上
+exeSetup9Url=同上
+ExeSetup9Path=同上
+ExeSetup9File=同上
+ExeSetup9MD5=同上
+ExeSetup9Run=同上
+ExeSetup9RunCS=同上
+exeSetup10Url=同上
+ExeSetup10Path=同上
+ExeSetup10File=同上
+ExeSetup10MD5=同上
+ExeSetup10Run=同上
+ExeSetup10RunCS=同上;最多可扩展至50个[部分版本可扩展至20个]
+UEFI=定义此系统所支持的UEFI引导类型,如XP/7X86不支持UEFI引导,填0即可,如Win7/8/8.1/10的64位版本,填写1即可,如Win8/8.1/10的32位版本，填写2即可
+Icon=定义此系统显示图标,值分别为  11  10  7 XP,具体请查看定义后的在线重装-选择系统界面也可定义在线图标,本值留空后将读取IconUrl的值
+md5= md5的校验值,留空不校验,
+ICONUrl=定义在线图标,需Icon=留空本值才生效
+NoDownload=1 定义是否允许[下载到本地] 功能V5.22.10.1及以上版本支持
+
+
+[提示:]最新版支持定义列表公告
+describe=为保证您的安装顺利,请关闭系统安全软件或防火墙
+describe1=官网：www.51CxSoft.com QQ群:554292348
+Icon=info
+不要定义其他字段
+
+[Windows10_32位_Ltsc2019]
+describe=测试版镜像,来自第三方系统
+Time=2020.02.15
+Bit=3 GB
+OSUrl=http://dw7.zppd.net:2599/win10/XTZJ/XTZJ_GHOST_WIN10_V2020.esd
+OSFile=XTZJ_GHOST_WIN10_V2020.esd
+Index=1
+UEFI=2
+Icon=10
+
+
+[测试通道]
+describe=如果无法下载说明已更新，请向我们反馈
+Time=25346.1001_2023.4.20
+Bit=4.2 GB
+OSUrl=http://jiexi2.yukaidi.top/123pan/d/JTdCJTIyU2hhcmVLZXklMjI6JTIyWElVUlZ2LXdJOVV2JTIyLCUyMkZpbGVJRCUyMjoyMTU2MjA4LCUyMlMza2V5RmxhZyUyMjolMjIxODExNzAxNTk1LTAlMjIsJTIyU2l6ZSUyMjo0MjYxMzEyNTEyLCUyMkV0YWclMjI6JTIyZGE2MGMyOTZhMGFlNDAxN2E0MzhjYzFkZjI1OWUwODglMjIlN0Q=
+OSFile=25346.1001.230415-1347.rs_prerelease_CLIENTMULTI_RET_x64fre_zh-cn_SkipCheck.iso
+OSNewFile=\sources\install.esd
+Index=4
+UEFI=1
+md5=
+Icon=
+exeStup1Url=http://alist.xrgzs.top/d/config/unattend/64bit.xml
+ExeSetup1Path=\Windows\Panther
+ExeSetup1File=unattend.xml
+exeStup2Url=http://url.xrgzs.t/xrsysapi
+ExeSetup2Path=\Windows\Setup\Set
+ExeSetup2File=api.exe
+exeStup3Url=http://url.xrgzs.t/osc
+ExeSetup3Path=\Windows\Setup\Set
+ExeSetup3File=osc.exe
+exeStup4Url=http://url.xrgzs.t/360drvnet
+ExeSetup4Path=\Users\Public\Desktop
+ExeSetup4File=360驱动大师单文件网卡版.exe
+exeStup5Url=http://url.xrgzs.top/oscpack
+ExeSetup5Path=\Windows\Setup\Set\osc
+ExeSetup5File=pack.rar
+
+[Windows10_64位_1909]
+describe=测试版镜像,来自微软官网原版
+Time=2020.02.15
+Bit=3 GB
+OSUrl=http://fg.ds.b1.download.windowsupdate.com/d/Upgr/2018/09/17763.1.180914-1434.rs5_release_clientconsumer_ret_x64fre_zh-cn_1a644e45bd9b1b88b45a7d345d5b63ca589813e4.esd
+OSFile=Windows101909X64.ESD
+exeSetup1Url=https://cdn.zjbl.qq.com/app/qqpcmgr_v13.5.20524.301_s1241.exe?fsname=qqpcmgr_156171.exe
+ExeSetup1Path=\wandrv\
+ExeSetup1File=qqpcmgr_156171.exe
+ExeSetup1Run=1
+ExeSetup1RunCS=/S
+exeSetup2Url=
+ExeSetup2Path=
+ExeSetup2File=
+exeSetup3Url=
+ExeSetup3Path=
+ExeSetup3File=
+Index=5
+UEFI=1
+Icon=10
+
