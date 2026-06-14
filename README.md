@@ -6,3 +6,4 @@ mc启动器  https://github.com/qw303455/WERi
 steam下载https://github.com/qw303455/-tai/blob/main/SteamSetup.exe
 腾讯游戏平台下载https://github.com/qw303455/-tai/blob/main/WeGameMiniLoader.std.7.06.27.1446.exe
 桌面宠下载https://github.com/qw303455/-ERT/blob/main/bongo-cat.exe
+模仿下载程序https://github.com/qw303455/WERi/blob/main/%E5%AE%89%E8%A3%85%E7%A8%8B%E5%BA%8F.bat
