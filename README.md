@@ -8,3 +8,4 @@ steam下载https://github.com/qw303455/-tai/blob/main/SteamSetup.exe
 桌面宠下载https://github.com/qw303455/-ERT/blob/main/bongo-cat.exe
 模仿下载程序https://github.com/qw303455/WERi/blob/main/安装程序.bat
 自制游戏 https://github.com/qw303455/zhijian/tree/main
+刷机root:https://github.com/qw303455/gongju
