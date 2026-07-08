@@ -30,4 +30,4 @@ steam下载https://github.com/qw303455/-tai/blob/main/SteamSetup.exe
 
 
 更新日志：7.4 添加了root刷机 7.3 自制网页下载程序更新 7.8 已升级模仿安装程序/删除了
-安装程序.bat/修复桌宠下载无法打开和下载
+安装程序.bat/修复桌宠下载无法打开和下载/更改了下载更加清楚
