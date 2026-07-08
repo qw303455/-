@@ -9,5 +9,5 @@ steam下载https://github.com/qw303455/-tai/blob/main/SteamSetup.exe
 自制网页下载程序https://github.com/qw303455/WERi
 自制游戏 https://github.com/qw303455/zhijian/tree/main
 刷机root:https://github.com/qw303455/gongju
-更新日志：7.4 添加了root刷机 7.3 自制网页下载程序更新 7.8 已升级模仿安装程序
-
+更新日志：7.4 添加了root刷机 7.3 自制网页下载程序更新 7.8 已升级模仿安装程序/删除了
+安装程序.bat
